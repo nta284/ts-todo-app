@@ -21,7 +21,7 @@ const FlatList = <T extends {}>({ data, renderItem, keyExtractor }: IFlatList<T>
 const List = () => {
     return (
         <div>
-            <FlatList<number>
+            <FlatList
                 data={[1, 2, 3, 4]}
                 keyExtractor={(num) => num.toString()}
                 renderItem={(num) => (
