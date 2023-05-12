@@ -1,0 +1,1 @@
+- Check if property is undefined before reading it in case of optional properties
